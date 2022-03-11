@@ -1,4 +1,4 @@
-FROM docker:stable-git
+FROM docker:19-git
 
 RUN apk add --no-cache build-base curl python3 python3-dev zlib-dev jpeg-dev protobuf protobuf-dev openssl libffi-dev openssl-dev tzdata
 
